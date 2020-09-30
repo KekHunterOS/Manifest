@@ -3,9 +3,16 @@ LineageOS 18.0 / KekHunterOS R
 
 Before we start
 --------------------------------------------
+### PC/Laptop requirements
+* PC/Laptop with linux distro (native or vm)
+* Cpu with sse4+ feature
+* 8+ gb ram
+* 250gb + space
+* For the f sake, don't use a phone to compile it
 ### Preffered environments for compiling
 * Ubuntu 18.xx+ and up
 * Kali linux 2020.x and up
+* Maybe even a vm but i dont recommend it.
 
 ### Installing packages
 ```
