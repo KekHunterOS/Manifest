@@ -8,9 +8,9 @@
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="ThankYM" revision="quartz" />
 
   <!-- KekHunterOS additions -->    
-  <project path="vendor/lineage" name="KekHunterOS/android_vendor_lineage" remote="kek" />
-  <project path="vendor/firmware" name="KekHunterOS/firmware-linux" remote="kek" />
-  <project path="vendor/libraries" name="KekHunterOS/prebuilts" remote="kek" />
+  <project path="vendor/lineage" name="KekHunterOS/vendor_lineage" remote="kek" />
+  <project path="vendor/firmware" name="KekHunterOS/vendor_firmware" remote="kek" />
+  <project path="vendor/libraries" name="KekHunterOS/vendor_prebuilts" remote="kek" />
   <project path="patcher" name="KekHunterOS/Starter" remote="kek" >
   <linkfile src="starter.sh" dest="starter.sh" />
   </project>
