@@ -14,7 +14,7 @@
            fetch="https://github.com/omnirom" />
 
   <remote name="kek"
-          revision="refs/heads/17.1"
+          revision="refs/heads/kek-17.1"
           fetch="https://github.com/" />
 
   <remote  name="aicp"
