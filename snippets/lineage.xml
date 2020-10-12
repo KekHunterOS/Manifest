@@ -11,8 +11,13 @@
   <project path="vendor/lineage" name="KekHunterOS/vendor_lineage" remote="kek" />
   <project path="vendor/firmware" name="KekHunterOS/vendor_firmware" remote="kek" />
   <project path="vendor/libraries" name="KekHunterOS/vendor_prebuilts" remote="kek" />
-  <project path="patcher" name="KekHunterOS/Starter" remote="kek" >
+  <project path="patcher" name="KekHunterOS/android_starter" remote="kek" >
   <linkfile src="starter.sh" dest="starter.sh" />
+  </project>
+  <project path="build" name="KekHunterOS/android_build" remote="kek" >
+   <copyfile src="make/core/root.mk" dest="Makefile" />
+   <linkfile src="soong/root.bp" dest="Android.bp" />
+   <linkfile src="soong/bootstrap.bash" dest="bootstrap.bash" />
   </project>
   
   <!-- Parts that los dosent add by default -->
