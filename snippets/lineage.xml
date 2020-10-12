@@ -8,16 +8,16 @@
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="ThankYM" revision="quartz" />
 
   <!-- KekHunterOS additions -->    
-  <project path="vendor/lineage" name="KekHunterOS/android_vendor_lineage" remote="kek" revision="kek" />
-  <project path="vendor/firmware" name="KekHunterOS/firmware-linux" remote="kek" revision="master" />
-  <project path="vendor/libraries" name="KekHunterOS/prebuilts" remote="kek" revision="master" />
+  <project path="vendor/lineage" name="KekHunterOS/android_vendor_lineage" remote="kek" />
+  <project path="vendor/firmware" name="KekHunterOS/firmware-linux" remote="kek" />
+  <project path="vendor/libraries" name="KekHunterOS/prebuilts" remote="kek" />
   <project path="patcher" name="KekHunterOS/Starter" remote="kek" >
   <linkfile src="starter.sh" dest="starter.sh" />
   </project>
   
   <!-- Parts that los dosent add by default -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" />
-  <project path="hardware/samsung" name="KekHunterOS/hardware_samsung" />
+  <project path="hardware/samsung" name="KekHunterOS/hardware_samsung" remote="kek" revision="LOS-17.1" />
 
   <!-- Pixel experience pack-->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="pxlexp" revision="ten-plus" />
