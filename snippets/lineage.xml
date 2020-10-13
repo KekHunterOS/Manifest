@@ -20,6 +20,10 @@
    <linkfile src="soong/bootstrap.bash" dest="bootstrap.bash" />
   </project>
   
+  <!-- Some unmoved project files from pwn-hunter-->
+  <project path="external/toybox" name="PWN-Hunter/android_external_toybox" remote="kek" />
+
+  
   <!-- Parts that los dosent add by default -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" />
   <project path="hardware/samsung" name="KekHunterOS/hardware_samsung" remote="kek" revision="LOS-17.1" />
