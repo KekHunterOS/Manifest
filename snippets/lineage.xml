@@ -6,25 +6,6 @@
 
   <!-- AOSPA ThankYouMario-->
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="ThankYM" revision="quartz" />
-
-  <!-- KekHunterOS additions -->    
-  <project path="vendor/lineage" name="KekHunterOS/vendor_lineage" remote="kek" />
-  <project path="vendor/firmware" name="KekHunterOS/vendor_firmware" remote="kek" />
-  <project path="vendor/libraries" name="KekHunterOS/vendor_prebuilts" remote="kek" />
-  <project path="patcher" name="KekHunterOS/android_starter" remote="kek" >
-  <linkfile src="starter.sh" dest="starter.sh" />
-  </project>
-  <project path="build" name="KekHunterOS/android_build" remote="kek" >
-   <copyfile src="make/core/root.mk" dest="Makefile" />
-   <linkfile src="soong/root.bp" dest="Android.bp" />
-   <linkfile src="soong/bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <project path="system" name="KekHunterOS/android_system" remote="kek" />
-  <project path="external/selinux" name="KekHunterOS/external_selinux" remote="kek" />
-  
-  <!-- Some unmoved project files from pwn-hunter-->
-  <project path="external/toybox" name="PWN-Hunter/android_external_toybox" remote="kek" />
-
   
   <!-- Parts that los dosent add by default -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" />
