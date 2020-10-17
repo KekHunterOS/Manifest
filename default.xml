@@ -612,46 +612,6 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" >
     <linkfile src="current/androidx-README.md" dest="frameworks/support/README.md" />
   </project>
-  <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp" />
-  <project path="system/ashmemd" name="platform/system/ashmemd" groups="pdk" remote="aosp" />
-  <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
-  <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" />
-  <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
-  <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
-  <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
-  <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
-  <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
-  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
-  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
-  <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
-  <project path="system/hardware/interfaces" name="LineageOS/android_system_hardware_interfaces" groups="pdk" />
-  <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />
-  <project path="system/iorap" name="platform/system/iorap" groups="pdk" remote="aosp" />
-  <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
-  <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" remote="aosp" />
-  <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" remote="aosp" />
-  <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="aosp" />
-  <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" remote="aosp" />
-  <project path="system/libufdt" name="LineageOS/android_system_libufdt" groups="pdk" />
-  <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
-  <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp" />
-  <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp" />
-  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
-  <project path="system/nfc" name="platform/system/nfc" groups="pdk" remote="aosp" />
-  <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
-  <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
-  <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
-  <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk" remote="aosp" />
-  <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" remote="aosp" />
-  <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" />
-  <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" remote="aosp" />
-  <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" remote="aosp" />
-  <project path="system/tools/sysprop" name="platform/system/tools/sysprop" groups="pdk" remote="aosp" />
-  <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" remote="aosp" />
-  <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />
-  <project path="system/ucontainer" name="platform/system/ucontainer" groups="pdk" remote="aosp" />
-  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/mlts/benchmark" name="platform/test/mlts/benchmark" groups="pdk" remote="aosp" />
   <project path="test/mlts/models" name="platform/test/mlts/models" groups="pdk" remote="aosp" />
