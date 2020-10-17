@@ -20,6 +20,7 @@
    <linkfile src="soong/bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="system" name="KekHunterOS/android_system" remote="kek" />
+  <project path="external/selinux" name="KekHunterOS/external_selinux" remote="kek" />
   
   <!-- Some unmoved project files from pwn-hunter-->
   <project path="external/toybox" name="PWN-Hunter/android_external_toybox" remote="kek" />
