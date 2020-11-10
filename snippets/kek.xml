@@ -25,6 +25,6 @@
   <project path="external/toybox" name="PWN-Hunter/android_external_toybox" remote="kek" />
   
   <!-- Hardware stuff-->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="kek" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="kek" revision="lineage-17.1" />
 
 </manifest>
