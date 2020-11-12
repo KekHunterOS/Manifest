@@ -29,6 +29,11 @@ To initialize your local repository using the LineageOS trees, use a command lik
 ```
 repo init -u https://github.com/KekHunterOS/Manifest.git -b KEK-17.1
 ```
+
+To save some time and space u can also do this : 
+```
+repo init --depth=1 -u git://github.com/KekHunterOS/Manifest.git -b KEK-17.1
+```
 Then to sync up:
 ```
 repo sync --force-sync --no-tags --no-clone-bundle -j$(nproc --all)
