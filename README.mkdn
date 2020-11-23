@@ -31,6 +31,7 @@ sudo pacman -S base-devel multilib-devel gcc repo git gnupg gperf sdl wxgtk2 squ
 gpg --keyserver keys.gnupg.net --recv-keys C52048C0C0748FEE227D47A2702353E0F7E48EDB
 yay -S ncurses5-compat-libs
 ```
+* Note for arch: use bash to compile aosp as shell (fish) has issues.
 
 Getting started
 ---------------
