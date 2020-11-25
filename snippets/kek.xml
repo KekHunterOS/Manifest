@@ -2,29 +2,14 @@
 <manifest>
 
   <remote name="kek"
-          revision="refs/heads/kek-17.1"
+          revision="refs/heads/kek-18.0"
           fetch="https://github.com/" />
 
   <!-- KekHunterOS additions -->    
-  <project path="vendor/lineage" name="KekHunterOS/vendor_lineage" remote="kek" />
-  <project path="vendor/firmware" name="KekHunterOS/vendor_firmware" remote="kek" />
-  <project path="vendor/libraries" name="KekHunterOS/vendor_prebuilts" remote="kek" />
-  <project path="patcher" name="KekHunterOS/android_starter" remote="kek" >
-  <linkfile src="starter.sh" dest="starter.sh" />
-  </project>
-  <project path="build" name="KekHunterOS/android_build" remote="kek" >
-   <copyfile src="make/core/root.mk" dest="Makefile" />
-   <linkfile src="soong/root.bp" dest="Android.bp" />
-   <linkfile src="soong/bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <project path="external/selinux" name="KekHunterOS/external_selinux" remote="kek" />
-  <project path="packages/apps/Updater" name="KekHunterOS/android_packages_apps_Updater" remote="kek"/>
-  <project path="system/core" name="KekHunterOS/android_system_core" groups="pdk" remote="kek" revision="kek-17.1" />
-  
-  <!-- Some unmoved project files from pwn-hunter-->
-  <project path="external/toybox" name="PWN-Hunter/android_external_toybox" remote="kek" />
   
   <!-- Hardware stuff-->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="kek" revision="lineage-17.1" />
-
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="kek" revision="lineage-18.0" />
+  
+  <!-- Extra externals -->
+    <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="master" />
 </manifest>
