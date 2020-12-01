@@ -9,7 +9,7 @@
   <project path="packages/apps/Updater" name="KekHunterOS/android_packages_apps_Updater" remote="kek" revision="kek-18.0" />
   <project path="vendor/lineage" name="KekHunterOS/vendor_lineage" remote="kek" revision="kek-18.0" />
   <!-- Hardware stuff-->
-  <project path="hardware/xiaomi" name="KekHunterOS/android_hardware_xiaomi" remote="kek" revision="lineage-18.0" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="kek" revision="lineage-18.0" />
   
   <!-- Extra externals -->
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="master" />
