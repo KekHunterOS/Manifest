@@ -6,14 +6,11 @@
           fetch="https://github.com/" />
 
   <!-- KekHunterOS additions -->    
-  <project path="packages/apps/Updater" name="KekHunterOS/android_packages_apps_Updater" remote="kek" revision="kek-18.0" />
-  <project path="vendor/lineage" name="KekHunterOS/vendor_lineage" remote="kek" revision="kek-18.0" />
-  <project path="system/core" name="KekHunterOS/android_system_core" remote="kek" revision="kek-18.0" />
-  <project path="bootable/recovery" name="KekHunterOS/android_bootable_recovery" remote="kek" revision="kek-18.0" />
+  <project path="packages/apps/Updater" name="KekHunterOS/android_packages_apps_Updater" remote="kek" revision="kek-18.1" />
+  <project path="vendor/lineage" name="KekHunterOS/vendor_lineage" remote="kek" revision="kek-18.1" />
+  <project path="system/core" name="KekHunterOS/android_system_core" remote="kek" revision="kek-18.1" />
+  <project path="bootable/recovery" name="KekHunterOS/android_bootable_recovery" remote="kek" revision="kek-18.1" />
 
   <!-- Hardware stuff-->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="kek" revision="lineage-18.0" />
-  
-  <!-- Extra externals -->
-  <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="master" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="kek" revision="lineage-18.1" />
 </manifest>
