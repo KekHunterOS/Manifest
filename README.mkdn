@@ -1,4 +1,4 @@
-LineageOS 18.0 / KekHunterOS R
+LineageOS 18.1 / KekHunterOS R
 ===========
 
 Before we start
@@ -41,12 +41,12 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u https://github.com/KekHunterOS/Manifest.git -b KEK-18.0
+repo init -u https://github.com/KekHunterOS/Manifest.git -b kek-18.1
 ```
 
 To save some time and space u can also do this : 
 ```
-repo init --depth=1 -u git://github.com/KekHunterOS/Manifest.git -b KEK-18.0
+repo init --depth=1 -u git://github.com/KekHunterOS/Manifest.git -b kek-18.1
 ```
 Then to sync up:
 ```
