@@ -26,10 +26,7 @@ sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-mult
 ```
 sudo pacman -Sy
 
-sudo pacman -S base-devel multilib-devel gcc repo git gnupg gperf sdl wxgtk2 squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt bc rsync ccache lib32-zlib lib32-ncurses lib32-readline maven gradle jdk8-openjdk 
-
-gpg --keyserver keys.gnupg.net --recv-keys C52048C0C0748FEE227D47A2702353E0F7E48EDB
-yay -S ncurses5-compat-libs
+sudo pacman -S base-devel multilib-devel gcc repo git gnupg gperf sdl wxgtk2 squashfs-tools curl ncurses zlib schedtool perl-switch zip unzip libxslt bc rsync ccache lib32-zlib lib32-ncurses lib32-readline maven gradle jdk8-openjdk z3
 ```
 * Note for arch: use bash to compile aosp as shell (fish) has issues.
 
