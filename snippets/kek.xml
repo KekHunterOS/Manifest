@@ -8,6 +8,7 @@
   <!-- KekHunterOS additions -->
     <!-- Packages -->
     <project path="packages/apps/Updater" name="KekHunterOS/android_packages_apps_Updater" remote="kek" revision="kek-18.1" />
+    <project path="packages/apps/Backgrounds" name="KekHunterOS/android_packages_apps_Backgrounds" remote="kek" revision="kek-18.1" />
   
     <!-- Vendor -->
     <project path="vendor/lineage" name="KekHunterOS/vendor_lineage" remote="kek" revision="kek-18.1" />
