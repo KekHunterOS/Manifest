@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="kek"
-          revision="refs/heads/kek-18.0"
+          revision="refs/heads/kek-18.1"
           fetch="https://github.com/" />
 
   <!-- KekHunterOS additions -->
@@ -15,6 +15,7 @@
   
     <!-- System -->
     <project path="system/core" name="KekHunterOS/android_system_core" remote="kek" revision="kek-18.1" />
+    <project path="system/extras" name="KekHunterOS/android_system_extras" remote="kek" revision="kek-18.1" />
   
     <!-- Prebuilts -->
     <project path="prebuilts/clang/host/linux-x86/clang-kek" name="KekHunterOS/prebuilts_clang_host_linux-x86_clang-kek" remote="kek" revision="kek-18.1" />
