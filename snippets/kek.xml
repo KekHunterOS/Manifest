@@ -12,11 +12,6 @@
   <project path="patcher" name="KekHunterOS/android_starter" remote="kek" >
   <linkfile src="starter.sh" dest="starter.sh" />
   </project>
-  <project path="build" name="KekHunterOS/android_build" remote="kek" >
-   <copyfile src="make/core/root.mk" dest="Makefile" />
-   <linkfile src="soong/root.bp" dest="Android.bp" />
-   <linkfile src="soong/bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="external/selinux" name="KekHunterOS/external_selinux" remote="kek" />
   <project path="packages/apps/Updater" name="KekHunterOS/android_packages_apps_Updater" remote="kek"/>
   <project path="system/core" name="KekHunterOS/android_system_core" groups="pdk" remote="kek" revision="kek-17.1" />
