@@ -33,7 +33,14 @@ sudo pacman -S base-devel multilib-devel gcc repo git gnupg gperf sdl wxgtk2 squ
 Getting started
 ---------------
 
-To initialize your local repository using the KekHunter trees, use a command like this:
+### To initialize your local repository using the KekHunter trees, use a command like this:
 ```
 git clone https://github.com/KekHunterOS/Manifest.git .repo/local_manifests -b kek-18.1
 ```
+### Patching the synced source code
+```
+./kek-patches/apply-patches.sh -mb
+```
+### Little notes
+* If u think to update/sync the source code then do it with --force-sync and redo the pathes after successful sync.
+
