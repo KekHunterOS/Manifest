@@ -42,5 +42,25 @@ git clone https://github.com/KekHunterOS/Manifest.git .repo/local_manifests -b k
 ./kek-patches/apply-patches.sh -mb
 ```
 ### Little notes
-* If u think to update/sync the source code then do it with --force-sync and redo the pathes after successful sync.
+* If u want to update/sync the source code then do it with --force-sync and readd the pathes after successful sync.
+
+
+Building
+---------------
+### Including kek config to device tree
+* Go and open
+```
+AOSP/device/(vendor)/(codename)/codename_something.mk
+```
+* Variants to include
+
+Variant               | Desc
+---------------------:|:--------------------------------------
+kekhunter.mk          | Regular kek experience
+minimal_kekhunter.mk  | Mainly for older devices that are slow
+
+```
+# Include kekhunter
+$(call inherit-product-if-exists, vendor/kekhunter/configs/variant.mk)
+```
 
