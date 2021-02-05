@@ -56,8 +56,8 @@ AOSP/device/(vendor)/(codename)/codename_something.mk
 
 Variant               | Desc
 ---------------------:|:--------------------------------------
-kekhunter.mk          | Regular kek experience
-minimal_kekhunter.mk  | Mainly for older devices that are slow
+kekhunter.mk          | Regular set of tools and apps
+minimal_kekhunter.mk  | Mainly for those who want less features
 
 ```
 # Include kekhunter
