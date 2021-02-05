@@ -13,6 +13,8 @@ Before we start
 * Ubuntu 18.xx+ and up
 * Kali linux 2020.x and up
 * Maybe even a vm but i dont recommend it.
+### Supported architectures (Android)
+* ARM64
 
 ### Installing packages
 
