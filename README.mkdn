@@ -1,4 +1,4 @@
-LineageOS 18.1 / KekHunterOS R
+KekHunterOS R
 ===========
 
 Before we start
