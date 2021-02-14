@@ -66,3 +66,17 @@ minimal_kekhunter.mk  | Mainly for those who want less features
 $(call inherit-product-if-exists, vendor/kekhunter/configs/variant.mk)
 ```
 
+Updating/Upgrading
+---------------
+* Updating Kek overlay
+```
+cd .repo/local_manifests && git fetch && git pull && cd ../../
+```
+* Re-syncing with updated overlay
+```
+repo sync --force-sync --no-tags --no-clone-bundle
+```
+* Reapplying patches
+```
+./kek-patches/apply-patches.sh -mb
+```
