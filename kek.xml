@@ -10,7 +10,7 @@
     <!-- External -->
     <project path="external/bluetooth/bluez" name="KekHunterOS/external-bluetooth-bluez" remote="kek" revision="kek-18.1" />
   
-   <!-- Vendor -->
+    <!-- Vendor -->
     <project path="vendor/kekhunter" name="KekHunterOS/vendor_kekhunter" remote="kek" revision="kek-18.1" />
   
     <!-- Prebuilts -->
