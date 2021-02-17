@@ -6,6 +6,10 @@
           fetch="https://github.com/" />
 
   <!-- KekHunterOS additions -->
+  
+    <!-- External -->
+    <project path="external/bluetooth/bluez" name="KekHunterOS/external-bluetooth-bluez" remote="kek" revision="kek-18.1" />
+  
    <!-- Vendor -->
     <project path="vendor/kekhunter" name="KekHunterOS/vendor_kekhunter" remote="kek" revision="kek-18.1" />
   
