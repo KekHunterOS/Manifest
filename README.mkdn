@@ -74,7 +74,7 @@ cd .repo/local_manifests && git fetch && git pull && cd ../../
 ```
 * Re-syncing with updated overlay
 ```
-repo sync --force-sync --no-tags --no-clone-bundle
+repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 ```
 * Reapplying patches
 ```
