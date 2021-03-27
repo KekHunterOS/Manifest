@@ -14,7 +14,8 @@
     <project path="vendor/kekhunter" name="KekHunterOS/vendor_kekhunter" remote="kek" revision="kek-18.1" />
   
     <!-- Prebuilts -->
-    <project path="prebuilts/clang/host/linux-x86/clang-kek" name="KekHunterOS/prebuilts_clang_host_linux-x86_clang-kek" remote="kek" revision="kek-18.1" />
+    <!-- TODO: https://github.com/ClangBuiltLinux/tc-build to build clang-->
+    <!-- <project path="prebuilts/clang/host/linux-x86/clang-kek" name="KekHunterOS/prebuilts_clang_host_linux-x86_clang-kek" remote="kek" revision="kek-18.1" /> -->
     
     <!-- kek-patches -->
     <project path="kek-patches" name="KekHunterOS/kek-patches" remote="kek" revision="kek-18.1" />
