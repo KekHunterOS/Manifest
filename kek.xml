@@ -8,16 +8,12 @@
   <!-- KekHunterOS additions -->
   
     <!-- External -->
-    <project path="external/bluetooth/bluez" name="KekHunterOS/external-bluetooth-bluez" remote="kek" revision="kek-18.1" />
+    <!-- <project path="external/bluetooth/bluez" name="KekHunterOS/external-bluetooth-bluez" remote="kek" revision="kek-19.0" /> -->
   
     <!-- Vendor -->
-    <project path="vendor/kekhunter" name="KekHunterOS/vendor_kekhunter" remote="kek" revision="kek-18.1" />
-  
-    <!-- Prebuilts -->
-    <!-- TODO: https://github.com/ClangBuiltLinux/tc-build to build clang-->
-    <!-- <project path="prebuilts/clang/host/linux-x86/clang-kek" name="KekHunterOS/prebuilts_clang_host_linux-x86_clang-kek" remote="kek" revision="kek-18.1" /> -->
+    <!-- <project path="vendor/kekhunter" name="KekHunterOS/vendor_kekhunter" remote="kek" revision="kek-19.0" /> -->
     
     <!-- kek-patches -->
-    <project path="kek-patches" name="KekHunterOS/kek-patches" remote="kek" revision="kek-18.1" />
+    <project path="kek-patches" name="KekHunterOS/kek-patches" remote="kek" revision="kek-19.0" />
   
 </manifest>
