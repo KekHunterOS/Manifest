@@ -34,7 +34,7 @@ $ sudo pacman -S base-devel multilib-devel gcc repo git gnupg gperf sdl wxgtk2 s
 ```
 $ sudo pacman -Sy
 
-$ sudo pacman -S base-devel python3-pip git gnupg gperf squashfs-tools curl ncurses zlib zip unzip libxslt bc rsync lib32-zlib lib32-ncurses lib32-readline openjdk-17
+$ sudo pacman -S repo base-devel python3-pip git gnupg gperf squashfs-tools curl ncurses zlib zip unzip libxslt bc rsync lib32-zlib lib32-ncurses lib32-readline openjdk-17
 ```
 
 Getting started
