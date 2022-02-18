@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="kek"
-          revision="refs/heads/kek-18.1"
+          revision="refs/heads/kek-19.0"
           fetch="https://github.com/" />
 
   <!-- KekHunterOS additions -->
@@ -14,6 +14,6 @@
     <!-- <project path="vendor/kekhunter" name="KekHunterOS/vendor_kekhunter" remote="kek" revision="kek-19.0" /> -->
     
     <!-- kek-patches -->
-    <project path="kek-patches" name="KekHunterOS/kek-patches" remote="kek" revision="kek-19.0" />
+    <!-- <project path="kek-patches" name="KekHunterOS/kek-patches" remote="kek" revision="kek-19.0" /> -->
   
 </manifest>
